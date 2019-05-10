@@ -15,7 +15,7 @@
 2. Get all house info: [get] /houses/ http://localhost:3002/jr/houses
 3. Get a house info: [get] /houses/:code
 
-###Owner
+### Owner
 
 - add owner: [post] /owner http://127.0.0.1:3002/jr/owner
 
@@ -55,7 +55,7 @@
 
   ```
   npm init --yes
-  npm i express
+  npm i
   git init
   git remote add origin https://github.com/polokang/jr-house-api.git
   ```
@@ -65,6 +65,7 @@
 
 ### 2. Install developer tools for fast develop
 
+- `npm i express`
 - `npm i nodemon`
 - `npm i envdotjson`
 - `npm i helmet`
