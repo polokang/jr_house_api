@@ -1,7 +1,7 @@
 {
-  "name": "jr-house-api",
+  "name": "jr_house_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Publish the House - CRUD the House - Sign up the Owner - CRUD the Owner - Add the Tenant - CURD the Tenant - Create the Relationship between House and Owner - Create the Relationship between House and Tenant",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/server.js",
@@ -31,5 +31,13 @@
     "winston": "^3.2.1",
     "winston-daily-rotate-file": "^3.8.0",
     "yamljs": "^0.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polokang/jr_house_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/polokang/jr_house_api/issues"
+  },
+  "homepage": "https://github.com/polokang/jr_house_api#readme"
 }
